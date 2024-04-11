@@ -1,0 +1,22 @@
+meta {
+  name: Update user
+  type: http
+  seq: 6
+}
+
+put {
+  url: http://localhost:5000/api/users/66173dd56500f4cc9338bd76
+  body: json
+  auth: none
+}
+
+headers {
+  Authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwidXNlcklkIjoiNjYwZDIwYzJiYzZlYzZhNTA3ODY4NzBhIiwiaWF0IjoxNzEyNzk4MzkyLCJleHAiOjE3MTI4ODQ3OTJ9.ffBPCJLd7SHv0xb-y1xhlmSVXzWnLxvnxUm3qjSYcdA
+}
+
+body:json {
+  {
+    "name": "Muhammad Afzaal Ghaiyyas",
+    "email": "afzaal@gmail.com"
+  }
+}

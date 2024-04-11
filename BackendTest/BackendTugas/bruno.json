@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "BackendTugas",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
